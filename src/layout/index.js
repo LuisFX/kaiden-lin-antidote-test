@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MAX_WIDTH } from '../constants';
 import Header from './Header';
+import { MAX_WIDTH } from '../constants';
 
 const RootContainer = styled('div')(() => ({
   display: 'flex',
@@ -15,6 +15,7 @@ const Wrapper = styled('div')(() => ({
   overflow: 'hidden',
   width: MAX_WIDTH,
   height: '100%',
+  background: '#fff',
   [`@media screen and (max-width: ${MAX_WIDTH}px)`]: {
     width: '100%'
   }

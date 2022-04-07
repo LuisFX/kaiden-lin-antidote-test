@@ -11,7 +11,8 @@ export default createGlobalStyle(() => ({
     '-moz-osx-font-smoothing': 'grayscale',
     height: '100%',
     width: '100%',
-    fontFamily: `'Helvetica Neue', Helvetica, Arial, sans-serif`
+    fontFamily: `'Helvetica Neue', Helvetica, Arial, sans-serif`,
+    background: '#dbdee0'
   },
   body: {
     height: '100%',

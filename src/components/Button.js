@@ -20,7 +20,7 @@ const Button = ({
     <StyledButton size={size} onClick={onClick} {...rest}>
       {children}
     </StyledButton>
-  )
-}
+  );
+};
 
 export default Button;
