@@ -16,7 +16,8 @@ const InputContainer = styled('div')(() => ({
   'input': {
     border: 'none',
     width: '100%',
-    marginLeft: 15
+    marginLeft: 15,
+    outline: 'none'
   }
 }));
 
