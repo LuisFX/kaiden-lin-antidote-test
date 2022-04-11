@@ -1,6 +1,6 @@
 export const MAX_WIDTH = 432;
 
-export const PATIENTS_BY_DATE = [
+export const PATIENTS = [
   {
     groupBy: 'February 11',
     date: '3 weeks ago',
@@ -68,5 +68,3 @@ export const PATIENTS_BY_DATE = [
     avatar: '/assets/avatar.png'
   },
 ];
-
-

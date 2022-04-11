@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import useFuse from 'react-use-fuse';
 import Layout from './layout';
 import PatientList from './components/PatientList';
-import { PATIENTS_BY_DATE } from './constants';
+import { PATIENTS } from './constants';
 import arrayToGroupObj from './utils/arrayToGroupObj';
 
 const options = {
@@ -11,7 +11,7 @@ const options = {
 
 function App() {
   const { result, search } = useFuse({
-    data: PATIENTS_BY_DATE,
+    data: PATIENTS,
     options
   });
 
@@ -24,6 +24,6 @@ function App() {
       <PatientList patientGroups={filteredPatientGroups} />
     </Layout>
   );
-}
+};
 
 export default App;
